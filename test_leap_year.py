@@ -9,5 +9,8 @@ class TestStringMethods(unittest.TestCase):
     def test_divis100(self):
         self.assertEqual(leap_year(2100), False)
 
+    def test_divis100(self):
+        self.assertEqual(leap_year(2400), True)
+
 if __name__ == "__main__":
     unittest.main()
